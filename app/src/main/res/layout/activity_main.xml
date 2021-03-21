@@ -36,7 +36,7 @@
             android:id="@+id/entrada_pass"
             android:inputType="textPassword"
             app:met_floatingLabel="normal"
-            android:hint="Password"
+            android:hint="Contraseña"
             android:layout_marginLeft="20dp"
             android:layout_marginRight="20dp"/>
 
@@ -55,15 +55,6 @@
 
 
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:textStyle="bold"
-            android:layout_marginTop="20dp"
-            android:layout_gravity="center_horizontal"
-            android:text="¿No dispones de cuenta? Completa el registro para poder acceder al contenido."/>
-
-
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -75,6 +66,18 @@
             android:text="CREAR CUENTA"
             />
 
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="¿Olvidaste la contraseña?"
+            android:layout_marginTop="10dp"
+            android:textStyle="bold"
+            android:id="@+id/forgot_password"
+            android:textColor="@color/black"/>
+
 
     </LinearLayout>
+
+
 </LinearLayout>
